@@ -9,6 +9,7 @@ public class Zinssatz {
         double startKapital = sc.nextDouble();
         System.out.println("Bitte geben Sie den Zinssatz ein (in Kommazahl):");
         double zinssatz = sc.nextDouble();
+        //TODO beide Eingaben könnten das Programm blockieren, da die Eingabe in einem fehlerhaften Typ getätigt werden könnten. 
         double neuKapital = 0.00;
 
         double zinsen = (startKapital * zinssatz) / 100;
