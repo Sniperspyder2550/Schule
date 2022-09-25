@@ -10,7 +10,7 @@ public class Multiplikation {
         int ersteZahl = sc.nextInt();
         System.out.println("Nenne die zweite (ganze) Zahl");
         int zweiteZahl = sc.nextInt();
-        //TODO für alle eingaben sind
+        //TODO Eingaben, welche nicht dem jeweiligen Typen entsprechen, können zu Fehlern führen. 
         int ergebnis = ersteZahl * zweiteZahl;
         System.out.println(ersteZahl + " * " + zweiteZahl + " = " + ergebnis);
     }
