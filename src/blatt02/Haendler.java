@@ -10,7 +10,7 @@ public class Haendler {
         System.out.println("Wie viele MiniSD-Karten dürfen es sein?");
         int mengeMini = sc.nextInt();
         System.out.println("Wie viele MicroSD-Karten dürfen es sein?");
-        //TODO bei allen Eingaben sind Zeichenketten, welche keine Zahlen sind, sehr gefährlich
+        //TODO Alle Eingaben, welche nicht dem entsprechenden Datentypen entsprechen, gefaehrden das Programm
         int mengeMicro = sc.nextInt();
         double preisSD = 5.00;
         double preisMini = 8.00;
